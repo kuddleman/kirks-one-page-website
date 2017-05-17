@@ -157,7 +157,7 @@ if ($_POST['sub_btn']) {
 						<div class="col-md-3">
 							<!--START ABOUT SECTION  PICTURE-->
 							<div class="about_pic">
-								<img src="assets/images/kirk_photo.jpg" alt="picture of Kirk Prine">
+								<img src="assets/images/kirk_photo_new.jpg" alt="picture of Kirk Prine">
 							</div>
 							<!--END ABOUT SECTION  PICTURE-->
 						</div>
@@ -165,8 +165,11 @@ if ($_POST['sub_btn']) {
 							<!--START ABOUT SECTION  TEXT-->
 							<div class="about_content">
 								<h2><strong>I am DR KIRK PRINE</strong></h2>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. nisipellentesque eu, pretium quis, sem. Nulla consequat massa quis enim nisi</p>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+								<p>No matter how you identify as a man who loves men and no matter what relationship configuration you are in or desire, you are welcome to bring all parts of yourself to life coaching.</p>
+								<p> Kirk’s personal spiritual healing journey, his 17-year professional experience as a former psychotherapist, his work as an integrative bodyworker/healer, men’s community builder, conscious activist and spiritual teacher allow him to hold a safe a sacred space for you to explore your feelings of “wanting more.”</p>
+								<p>What are the desires of your heart and what story needs to change for you as you hunger for more?  This describes the essence of Body Story Life Coaching.</p>
+
+
 							</div>
 							<!--END ABOUT SECTION  TEXT-->
 						</div>
