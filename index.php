@@ -177,34 +177,15 @@ if ($_POST['sub_btn']) {
 			</div>
 			<div class="row">
 				<div class="about_buttons wow fadeInUp" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; ">
-					<div class="col-md-3">
-						<!--START RESUME DOWNLOAD BUTTON-->
-						<!--    
-                          <div class="about_download"> 
-                            <a href="">
-                                <h2>Download resume</h2>
-                            </a>
-                        </div>
-                         //-->
-						<!--END RESUME DOWNLOAD BUTTON-->
-					</div>
+					
 					<div class="col-md-9">
 						<!--START SOCIAL BUTTON-->
 						<div class="about_social ">
 							<ul>
 								<li>
 									<a href="https://www.facebook.com/kirk.prine"> <img src="assets/images/facebook.png" alt=""></a>
-									<!--   </li>
-                                <li>
-                                    <a href=""><img src="assets/images/googleplus.png" alt=""></a>
-                                </li>
-                                <li>
-                                    <a href=""><img src="assets/images/linkedin.png" alt=""></a>
-                                </li>
-                                <li>
-                                    <a href=""><img src="assets/images/tumblr.png" alt=""></a>
-                                </li>
-                                //-->
+									   </li>
+                                
 							</ul>
 						</div>
 						<!--END SOCIAL BUTTON-->
@@ -214,66 +195,7 @@ if ($_POST['sub_btn']) {
 		</div>
 	</section>
 	<!-- END ABOUT SECTION -->
-	<!-- START SERVICES SECTION -->
-	<!--
-    <section id="services_area" class="services_area page_area">
-       
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/q-eQ_Hv1uyg" frameborder="0" allowfullscreen></iframe>
-       
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="page_title">
-                        <h2>services</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="page_content wow fadeInUp" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; ">
-                    <div class="col-md-4">
-                        <!-- START SINLGE SERVICES -->
-	<!--
-                        <div class="single_service_area text-center">
-                            <div class="sevice_icon">
-                                <i class="fa fa-pencil" aria-hidden="true"></i>
-                            </div>
-                            <h2>ui Design</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                        </div>
-                        <!-- END SINLGE SERVICES -->
-	<!--
-                    </div>
-                    <div class="col-md-4">
-                        <!-- START SINLGE SERVICES -->
-	<!--
-                        <div class="single_service_area text-center">
-                            <div class="sevice_icon">
-                                <i class="fa fa-desktop" aria-hidden="true"></i>
-                            </div>
-                            <h2>Web Design</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                        </div>
-                        <!-- END SINLGE SERVICES -->
-	<!--
-                    </div>
-                    <div class="col-md-4">
-                        <!-- START SINLGE SERVICES -->
-	<!--
-                        <div class="single_service_area text-center">
-                            <div class="sevice_icon ">
-                                <i class="fa fa-code" aria-hidden="true"></i>
-                            </div>
-                            <h2>Web development</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                        </div>
-                        <!-- END SINLGE SERVICES -->
-	<!--   </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    //->
-    <!-- END SERVICES SECTION -->
+	
 	<!-- START PROTPHOLIO SECTION -->
 	<section id="Portfolio_area" class="Portfolio_area page_area">
 		<div class="container">
@@ -291,205 +213,18 @@ if ($_POST['sub_btn']) {
 					
 					<ul class="folio-menu list-inline text-center">
 						<li class=" fil-cat" data-rel="all">Here is what I want for you...</li>
-					<!--	<li class=" fil-cat" data-rel="web">Ui design</li>
-						<li class=" fil-cat" data-rel="flyers">Web design</li>
-						<li class=" fil-cat" data-rel="bcards">Web development</li> -->
+					
 					</ul>
 					
 					<iframe width="660" height="415" id="video" src="https://www.youtube.com/embed/q-eQ_Hv1uyg" frameborder="0" allowfullscreen></iframe>
 					
-					<!--Portfolio Thumbnails-->
-					<!--
-					<div id="portfolio">
-						<div class="tile scale-anm web all">
-							<img src="assets/images/1.jpg" alt="" data-toggle="modal" data-target=".project-1" />
-						</div>
-						<div class="tile scale-anm web all">
-							<img src="assets/images/2.jpg" alt="" data-toggle="modal" data-target=".project-2" />
-						</div>
-						<div class="tile scale-anm flyers all">
-							<img src="assets/images/3.jpg" alt="" data-toggle="modal" data-target=".project-3" />
-						</div>
-						<div class="tile scale-anm web all">
-							<img src="assets/images/4.jpg" alt="" data-toggle="modal" data-target=".project-4" />
-						</div>
-						<div class="tile scale-anm bcards all">
-							<img src="assets/images/5.jpg" alt="" data-toggle="modal" data-target=".project-5" />
-						</div>
-						<div class="tile scale-anm web flyers all">
-							<img src="assets/images/6.jpg" alt="" data-toggle="modal" data-target=".project-6" />
-						</div>
-						<div class="tile scale-anm flyers all">
-							<img src="assets/images/7.jpg" alt="" data-toggle="modal" data-target=".project-7" />
-						</div>
-						<div class="tile scale-anm bcards all">
-							<img src="assets/images/8.jpg" alt="" data-toggle="modal" data-target=".project-8" />
-						</div>
-						<div class="tile scale-anm bcards all">
-							<img src="assets/images/9.jpg" alt="" data-toggle="modal" data-target=".project-9" />
-						</div>
-					</div>
-					<!--Portfolio Modals-->
-					<!--
-					<div class="modal fade project-1" tabindex="-1" role="dialog">
-						<div class="modal-dialog modal-lg" role="document">
-							<div class="modal-content">
-								<img src="assets/images/1.jpg" alt="" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<div class="modal fade project-2" tabindex="-1" role="dialog">
-						<div class="modal-dialog modal-lg" role="document">
-							<div class="modal-content">
-								<img src="assets/images/2.jpg" alt="" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<div class="modal fade project-3" tabindex="-1" role="dialog">
-						<div class="modal-dialog modal-lg" role="document">
-							<div class="modal-content">
-								<img src="assets/images/3.jpg" alt="" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<div class="modal fade project-4" tabindex="-1" role="dialog">
-						<div class="modal-dialog modal-lg" role="document">
-							<div class="modal-content">
-								<img src="assets/images/4.jpg" alt="" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<div class="modal fade project-5" tabindex="-1" role="dialog">
-						<div class="modal-dialog modal-lg" role="document">
-							<div class="modal-content">
-								<img src="assets/images/5.jpg" alt="" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<div class="modal fade project-6" tabindex="-1" role="dialog">
-						<div class="modal-dialog modal-lg" role="document">
-							<div class="modal-content">
-								<img src="assets/images/6.jpg" alt="" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<div class="modal fade project-7" tabindex="-1" role="dialog">
-						<div class="modal-dialog modal-lg" role="document">
-							<div class="modal-content">
-								<img src="assets/images/7.jpg" alt="" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<div class="modal fade project-8" tabindex="-1" role="dialog">
-						<div class="modal-dialog modal-lg" role="document">
-							<div class="modal-content">
-								<img src="assets/images/8.jpg" alt="" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<div class="modal fade project-9" tabindex="-1" role="dialog">
-						<div class="modal-dialog modal-lg" role="document">
-							<div class="modal-content">
-								<img src="assets/images/9.jpg" alt="" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<!--Portfolio Modals End-->
+					
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- END PROTPHOLIO SECTION -->
-	<!-- START TESTIMONIAL SECTION -->
-	<!--
-    <section id="testimonial_area" class="testimonial_area page_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="page_title testimonial_title">
-                        <h2>testimonial</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="page_content">
-                    <div class="col-md-8 col-md-offset-2 col-md-offset-right-2 text-center wow fadeInUp" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; ">
-                        <div id="fawesome-carousel" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#fawesome-carousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#fawesome-carousel" data-slide-to="1"></li>
-                                <li data-target="#fawesome-carousel" data-slide-to="2"></li>
-                            </ol>
-                            <!-- START TESTIMONIAL AREA -->
-	<!--
-                            <div class="carousel-inner" role="listbox">
-                                <!-- START SINGLE TESTIMONIAL AREA -->
-	<!--
-                                <div class="item active">
-                                    <div class="single_testimonial_area">
-                                        <img src="assets/images/client_pic.png" alt="">
-                                        <p>back Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make .
-                                        </p>
-                                        <h3>Fahmid</h3>
-                                    </div>
-                                </div>
 	
-                                <!-- END SINGLE TESTIMONIAL AREA -->
-	<!-- START SINGLE TESTIMONIAL AREA -->
-	<!--
-                                <div class="item">
-                                    <div class="single_testimonial_area">
-                                        <img src="assets/images/client_pic.png" alt="">
-                                        <p>back Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make .
-                                        </p>
-                                        <h3>Fahmid</h3>
-                                    </div>
-                                </div>
-                                <!-- END SINGLE TESTIMONIAL AREA -->
-	<!-- START SINGLE TESTIMONIAL AREA -->
-	<!--
-                                <div class="item">
-                                    <div class="single_testimonial_area">
-                                        <img src="assets/images/client_pic.png" alt="">
-                                        <p>back Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make .
-                                        </p>
-                                        <h3>Fahmid</h3>
-                                    </div>
-                                </div>
-                                <!-- END SINGLE TESTIMONIAL AREA -->
-	<!-- START SINGLE TESTIMONIAL AREA -->
-	<!--
-                                <div class="item">
-                                    <div class="single_testimonial_area">
-                                        <img src="assets/images/client_pic.png" alt="">
-                                        <p>back Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indust rys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled itto make .
-                                        </p>
-                                        <h3>Fahmid</h3>
-                                    </div>
-                                </div>
-                                <!-- END SINGLE TESTIMONIAL AREA -->
-	<!-- START SINGLE TESTIMONIAL AREA -->
-	<!--
-                                <div class="item">
-                                    <div class="single_testimonial_area">
-                                        <img src="assets/images/client_pic.png" alt="">
-                                        <p>back Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indust rys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled itto make .
-                                        </p>
-                                        <h3>Fahmid</h3>
-                                    </div>
-                                </div>
-                                <!-- END SINGLE TESTIMONIAL AREA -->
-	<!--
-                            </div>
-                            <!-- END TESTIMONIAL AREA -->
-	<!--
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    //-->
 	<!-- END PROTPHOLIO SECTION -->
 	<!-- START CONTACT SECTION -->
 	<section id="contact_area" class="contact_area page_area">
@@ -532,17 +267,7 @@ if ($_POST['sub_btn']) {
 						<li>
 							<a href=""> <img src="assets/images/facebook.png" alt=""></a>
 						</li>
-						<!--
-                        <li>
-                            <a href=""><img src="assets/images/googleplus.png" alt=""></a>
-                        </li>
-                        <li>
-                            <a href=""><img src="assets/images/linkedin.png" alt=""></a>
-                        </li>
-                        <li>
-                            <a href=""><img src="assets/images/tumblr.png" alt=""></a>
-                        </li>
-                        //-->
+						
 					</ul>
 					<p>&copy; DR KIRK PRINE | All Right Reserved</p>
 					<p><a href="mailto:kirkprine@fleshandspirit.org?Subject=I%20am%20ready" style= "color: white;" target="_top">kirkprine@fleshandspirit.org</a></p>
