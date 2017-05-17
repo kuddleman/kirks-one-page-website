@@ -22,7 +22,7 @@ Author: Fahmid Ahmed Chowdhury
 09. CONTACT STYLE
 10. FOOTTER STYLE
 -------------------------------------------------------------------*/
-/* ACCENT COLOR IS  #fad02b */
+/* ACCENT COLOR IS  #384e24 */
 /* HOVER  COLOR IS  #f9ab0d */
 /*========================================0.1 BASE CSS================================================================*/
 
@@ -65,7 +65,10 @@ body {
     height: 100%
 }
 
-body {}
+body {
+	
+	background:red;
+}
 
 a:hover {
     text-decoration: none
@@ -121,7 +124,7 @@ body.preloader_active {
 
 .color {
     /*color: #44B272 */
-	color: #fad02b;
+	color: #f6ca00;
 }
 
 .page_area {
@@ -133,7 +136,7 @@ body.preloader_active {
     font-size: 18px;
     letter-spacing: 0.5px;
     line-height: 30px;
-    color: #272525;
+    color: #fad02b;
 }
 
 .page_title h2 {
@@ -142,7 +145,7 @@ body.preloader_active {
     font-size: 30px;
     letter-spacing: 3px;
     margin-bottom: 50px;
-    color: #272525;
+    color: #fad02b;
 }
 
 
@@ -299,7 +302,7 @@ body.preloader_active {
     font-family: abel;
     font-weight: bold;
     font-size: 25px;
-    color: #fad02b;
+    color: #384e24;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -346,7 +349,7 @@ body.preloader_active {
 
 .about_social ul li {
     display: inline-block;
-    background-color: #fad02b;
+    background-color: #384e24;
     margin: 0px 4px;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
@@ -392,7 +395,7 @@ body.preloader_active {
 }
 
 .sevice_icon i {
-    color: #fad02b;
+    color: #384e24;
     font-size: 60px;
     margin-bottom: 15px;
     -webkit-transition: all 1s ease;
@@ -454,7 +457,7 @@ body.preloader_active {
 }
 
 .folio-menu li {
-    color: #272525;
+    color: #f6ca00;
     font-family: abel;
     font-size: 18px;
     letter-spacing: 1px;
@@ -464,7 +467,7 @@ body.preloader_active {
 }
 
 .folio-menu li:hover {
-    color: #E74C3C;
+    color: #fad02b;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
 }
@@ -585,7 +588,7 @@ body.preloader_active {
     padding: 5px 60px 5px 60px;
     font-family: "Abel";
     font-size: 18px;
-    background-color: #fad02b;
+    background-color: #384e24;
     color: #fff;
     border: 1px solid;
     -webkit-transition: all 1s ease;
@@ -624,7 +627,7 @@ body.preloader_active {
 
 .social ul li {
     display: inline-block;
-    background-color: #fad02b;
+    background-color: #384e24;
     margin: 0px 4px;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;

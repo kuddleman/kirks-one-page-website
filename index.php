@@ -92,7 +92,7 @@
 						<div class="homepage_content_text">
 							<h2>WELCOME!  THIS IS <span class="color">DR KIRK PRINE</span></h2>
 							<!--CHANGE HOME SECTION TEXT-->
-							<p>I AM A BODY STORY LIFE COACH FOR GAY AND QUEER MEN</p>
+							<p>I AM A<span class="color"> BODY STORY LIFE COACH&trade;</span> FOR GAY AND QUEER MEN</p>
 							<!--CHANGE HOME SECTION TEXT-->
 						</div>
 						<!--END HOME SECTION  TEXT-->
@@ -198,7 +198,7 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="page_title">
-						<h2>IF YOU WANT MORE, LET ME HEAR FROM YOU:</h2>
+						<h2>WHAT IS THE "MORE" YOU WANT? LET ME HEAR FROM YOU:</h2>
 					</div>
 				</div>
 			</div>
@@ -222,7 +222,7 @@
 
 										
 									<label>
-											<input type="checkbox" name="check"> I am human
+											<input type="checkbox" name="check">&nbsp;  I am human
 										</label>
 										
 										<input type="submit" class="form_controle_btn " name="sub_btn" value="Send">
