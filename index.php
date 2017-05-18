@@ -109,6 +109,7 @@
 	</section>
 	<!-- END HOME SECTION -->
 	<!-- START ABOUT SECTION -->
+	<br/><br/><br/>
 	<section id="about_area" class="about_area page_area">
 		<div class="container">
 			<div class="row">

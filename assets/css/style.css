@@ -22,8 +22,8 @@ Author: Fahmid Ahmed Chowdhury
 09. CONTACT STYLE
 10. FOOTTER STYLE
 -------------------------------------------------------------------*/
-/* ACCENT COLOR IS  #384e24 */
-/* HOVER  COLOR IS  #f9ab0d */
+/* ACCENT COLOR IS  #F6CA00 */
+/* HOVER  COLOR IS  #FAD02B */
 /*========================================0.1 BASE CSS================================================================*/
 
 .alignleft {
@@ -67,7 +67,7 @@ body {
 
 body {
 	
-	background:red;
+	
 }
 
 a:hover {
@@ -136,7 +136,7 @@ body.preloader_active {
     font-size: 18px;
     letter-spacing: 0.5px;
     line-height: 30px;
-    color: #fad02b;
+    color: black;
 }
 
 .page_title h2 {
@@ -145,7 +145,7 @@ body.preloader_active {
     font-size: 30px;
     letter-spacing: 3px;
     margin-bottom: 50px;
-    color: #fad02b;
+    color: black;
 }
 
 
@@ -302,7 +302,7 @@ body.preloader_active {
     font-family: abel;
     font-weight: bold;
     font-size: 25px;
-    color: #384e24;
+    color: #f6ca00;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -345,6 +345,7 @@ body.preloader_active {
 
 .about_social ul {
     list-style: none;
+	
 }
 
 .about_social ul li {
@@ -353,6 +354,8 @@ body.preloader_active {
     margin: 0px 4px;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
+	background-color: #f6ca00;
+
 }
 
 .about_social ul li a img {
@@ -457,7 +460,7 @@ body.preloader_active {
 }
 
 .folio-menu li {
-    color: #f6ca00;
+    color: black;
     font-family: abel;
     font-size: 18px;
     letter-spacing: 1px;
@@ -588,7 +591,7 @@ body.preloader_active {
     padding: 5px 60px 5px 60px;
     font-family: "Abel";
     font-size: 18px;
-    background-color: #384e24;
+    background-color: #f6ca00;
     color: #fff;
     border: 1px solid;
     -webkit-transition: all 1s ease;
@@ -627,7 +630,7 @@ body.preloader_active {
 
 .social ul li {
     display: inline-block;
-    background-color: #384e24;
+    background-color: #f6ca00;
     margin: 0px 4px;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
