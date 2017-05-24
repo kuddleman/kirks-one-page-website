@@ -207,31 +207,16 @@
 				<div class="page_content">
 					<!-- CONTACT FROM -->
 					<div class="col-md-6 col-md-offset-3 col-md-offset-right-3  col-sm-10 col-sm-offset-1 col-sm-offset-right-1  col-xs-12  contact_details wow fadeInUp" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-						<div>
-							<form method="POST" role="form">
-								<input type="text" class="form_controle " name="name" placeholder="Name" value="">
-								
-								
-									<input type="text" class="form_controle " name="email" placeholder="Email" value="">
-									
-									
-										<input type="text" class="form_controle_message" name="message" placeholder="Message">
-										
-										
-										
-										
-
-										
-									<label>
-											<input type="checkbox" name="check">&nbsp;  I am human
-										</label>
-										
-										<input type="submit" class="form_controle_btn " name="sub_btn" value="Send">
-
-                                      
-
-							</form>
-						</div>
+						<form method="POST" action="sendmail/sendmail.php" id="contact_form">
+							<input type="text" class="form_controle" id="name" name="name" placeholder="Name" required>
+							<input type="email" class="form_controle" id="email" name="email" placeholder="Email" required>	
+							<input type="text" class="form_controle_message" id="message" name="message" placeholder="Message" required>
+							<label>
+								<input type="checkbox" name="check" id="check" value="ON">&nbsp;  I am human
+							</label>
+							<input type="submit" class="form_controle_btn " name="sub_btn" value="Send">
+						</form>
+						<div id="form-messages"></div>
 					</div>
 					<!--END CONTACT FROM -->
 				</div>
